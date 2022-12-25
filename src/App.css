@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-image: linear-gradient(To Top,blue,violet,white); 
+
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:papayawhip;
+  font-weight: bold;
+  font-size: 30px;
+}
+.active-class{
+  text-decoration: none;
+
+  color: purple;
+}
+.non-active-class{
+  text-decoration: none;
+  
+  color:blue;
+}
+.home{
+  font-weight: bold;
+  padding: 42vh 0;
+}
+.contact{
+  font-weight: bold;
+  padding: 42vh 0;
+}
+.std-btn{
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+table{
+  margin-top: 100px;
+  border-collapse: collapse;
+  background-color: white;
+}
+td{
+  border: 2px solid whitesmoke;
+  color: purple;
+  font-size: large;
+  text-align: center;
+  
+}
+th{
+  border: 2px solid whitesmoke;
+  text-align: center;
+  color: palevioletred;
+  font-size: large;
+}
+.std-head{
+margin-top: 20px;
+}
+.box1{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.box2{
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.box3{
+  position: absolute;
+  top: 350px;
+  left: 200px;
+}
+.box4{
+  position: absolute;
+  top: 350px;
+  left: 800px;
+}
+.form-btn1{
+  position: absolute;
+  top:400px ;
+  left:650px ;
+}
+.form-btn2{
+  position: absolute;
+  top:400px ;
+  left:480px ;
+}
+.appbutton{
+  color:green;
+  border: none;
+  background-color: white;
+}
+
